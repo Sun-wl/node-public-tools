@@ -1,0 +1,24 @@
+{
+  "name": "node-tools",
+  "version": "1.0.0",
+  "repository": "git@github.com:Sun-wl/node-tools.git",
+  "author": "'ling' <'sun_wling@163.com'>",
+  "license": "MIT",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^8.43.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-standard": "^5.0.0"
+  },
+  "scripts": {
+    "lint": "eslint ./ --ext .ts,.tsx,.js,.jsx",
+    "lint:fix": "eslint ./ --ext .ts,.tsx,.js,.jsx --fix"
+  },
+  "dependencies": {
+    "moment-timezone": "^0.5.43",
+    "winston": "^3.9.0"
+  }
+}

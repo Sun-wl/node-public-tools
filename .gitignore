@@ -1,0 +1,17 @@
+# OS
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# node
+node_modules
+
+# lockfiles (you can remove these if you want them).
+yarn.lock
+package-lock.json
+*.log
+
+# IDEs and editors
+.vscode
+.idea

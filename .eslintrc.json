@@ -1,0 +1,29 @@
+{
+  "env": {
+    "es2020": true,
+    "node": true,
+    "jest": true
+  },
+  "extends": [
+    "standard"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 11,
+    "sourceType": "module"
+  },
+  "rules": {
+    "space-before-function-paren": "off",
+    "no-mixed-operators": "warn",
+    "no-useless-escape": "warn",
+    "camelcase": "warn",
+    "no-unused-vars": "warn"
+  },
+  "settings": {},
+  "ignorePatterns": [
+    "node_modules/**",
+    "ssr_build/**",
+    "babel.config.js",
+    "jest.config.js",
+    "*.test.*"
+  ]
+}
