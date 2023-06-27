@@ -1,4 +1,4 @@
 module.exports = {
   logger: require('./logger'),
-  loggerFactory: require('./logger').loggerFactory,
+  loggerFactory: require('./logger').loggerFactory
 }

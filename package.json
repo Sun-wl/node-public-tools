@@ -1,17 +1,17 @@
 {
-  "name": "node-tools",
+  "name": "node-public-tools",
   "version": "1.0.0",
-  "repository": "git@github.com:Sun-wl/node-tools.git",
+  "repository": "git@github.com:Sun-wl/node-public-tools.git",
   "author": "'ling' <'sun_wling@163.com'>",
   "license": "MIT",
   "main": "index.js",
   "devDependencies": {
-    "eslint": "^8.43.0",
-    "eslint-config-standard": "^17.1.0",
-    "eslint-plugin-import": "^2.27.5",
+    "eslint": "^7.4.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-standard": "^5.0.0"
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
   },
   "scripts": {
     "lint": "eslint ./ --ext .ts,.tsx,.js,.jsx",

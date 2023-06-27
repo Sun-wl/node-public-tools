@@ -1,5 +1,5 @@
 const { createLogger, transports, format } = require('winston')
-const { combine, errors, timestamp, printf, splat } = format;
+const { combine, errors, timestamp, printf, splat } = format
 const moment = require('moment-timezone')
 
 const logConfig = {
@@ -48,7 +48,7 @@ const defaultFormats = [
 ]
 
 const printFn = ({ timestamp, trace_id, level, message, stack, ...rest }) => {
-  return `[${level}]: ${timestamp}${trace_id ? ` - [traceId:${trace_id}]` : ''}: ${message} ${!!Object.keys(rest).length ? JSON.stringify(rest) : ''} ${stack ? '\n' + stack : ''}${'\n'}`
+  return `[${level}]: ${timestamp}${trace_id ? ` - [traceId:${trace_id}]` : ''}: ${message} ${Object.keys(rest).length ? JSON.stringify(rest) : ''} ${stack ? '\n' + stack : ''}${'\n'}`
 }
 
 function loggerFactory(opts) {
